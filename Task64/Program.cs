@@ -6,7 +6,7 @@
 
 string GetNumsRecurs(int num)
 {
-    if (num==0)  return "";
+    if (num == 0) return "";
     return num + " " + GetNumsRecurs(num - 1);
 }
 
